@@ -41,9 +41,17 @@ const 영수증출력여부 = false; console.log(영수증출력여부);
 const 포인트적립여부 = false; console.log(포인트적립여부);
 
 // 4. 배열 찾기
-let 카테고리명들 = [ "커피(COFFEE)", "음료(NON COFFEE)", "스무디/쉐이크(BLENDED)"]; 
-console.log(카테고리명들);
+let category = [ "커피(COFFEE)", "음료(NON COFFEE)", "스무디/쉐이크(BLENDED)"]; 
+console.log( category );
+let productsAry = [ "아메리카노", "카페라테", "아이스티"]; 
+console.log( productsAry );
+let priceAry = [ 3000, 4000, 4500]; 
+console.log( priceAry );
 
 // 5. 객체 찾기
-let 객체 = {주문번호: 71, 결제금액: 3500, 주문날짜: "2025-07-03"}
-console.log( 객체 )
+let produtObj = { name: "아메리카노", price: 2500, stock: 35 }
+console.log( produtObj )
+let receipt = { orderNum: 71, price: 3500, Date: "2025-07-03" }
+console.log( receipt )
+let payment = { 결제수단: "신용카드", 할인권: "모바일상품권", 적립: "번호적립" }
+console.log( payment )
