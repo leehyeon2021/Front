@@ -33,7 +33,7 @@ let 주문수량 = 3; console.log( 주문수량 );
 let 주문번호 = 43; console.log( 주문번호 );
 
 // 2. 문자열 찾기
-console.log( "카페모카","차(TEA)", "결제하기")
+console.log( "카페모카","차(TEA)", "결제하기");
 
 // 3. 불리언 찾기
 const 품절여부 = true; console.log(품절여부);
@@ -49,9 +49,9 @@ let priceAry = [ 3000, 4000, 4500];
 console.log( priceAry );
 
 // 5. 객체 찾기
-let produtObj = { name: "아메리카노", price: 2500, stock: 35 }
-console.log( produtObj )
-let receipt = { orderNum: 71, price: 3500, Date: "2025-07-03" }
-console.log( receipt )
-let payment = { 결제수단: "신용카드", 할인권: "모바일상품권", 적립: "번호적립" }
-console.log( payment )
+let produtObj = { name: "아메리카노", price: 2500, stock: 35 };
+console.log( produtObj );
+let receipt = { orderNum: 71, price: 3500, Date: "2025-07-03" };
+console.log( receipt );
+let payment = { 결제수단: "신용카드", 할인권: "모바일상품권", 적립: "번호적립" };
+console.log( payment );
